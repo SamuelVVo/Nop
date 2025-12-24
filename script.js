@@ -1,6 +1,6 @@
 const yesBtn = document.querySelector('#yesBtn')
 yesBtn.addEventListener('click', ()=>{
-  alert('Siempre supe que aceptarias 😎👍')
+  alert('Sabía que dirías que si, feliz primer día mi niña jajsjs')
 })
 
 const noBtn = document.querySelector('#noBtn')
@@ -12,4 +12,5 @@ noBtn.addEventListener('mouseover', ()=>{
   noBtn.style.left = randomX+'%'
   noBtn.style.transform = `translate(-${randomX}%,
   -${randomY}%)`
+
 })
